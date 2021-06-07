@@ -174,6 +174,7 @@ p{
 /* Footer Section CSS */
 
 .footer {
+  text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -182,8 +183,8 @@ p{
   background-image: url('images/fondoproductos.jpeg');
   color: #fff;
   text-align: center;
-
 }
+
 
 @media (min-width: 1800px) {
      #images img{
@@ -197,4 +198,13 @@ p{
         width: 250px ;
     }
 }
+
+
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
