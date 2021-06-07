@@ -208,3 +208,7 @@ p{
   text-decoration: none;
   color: white;
 }
+
+.fa:hover{
+   color: #C19434;
+}
