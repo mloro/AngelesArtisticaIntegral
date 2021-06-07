@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: Georgia,Times,serif;
+    background-color: #F1F1EF;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-variant-caps: tilting-caps;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+    font-variant-caps: titling-caps;
+
+}
+p{
+    font-size: 20px;
+}
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.45)),url('images/angelesportada.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+#banner h1{
+    color : #C19434;
+    font-size: 60px;
+    margin: 0;
+}
+
+.products{
+    background-color: #374818;
+    background-image: url('images/fondoproductos.jpeg');
+    background-repeat: repeat;
+    background-position: 0 0;
+    overflow: hidden;
+}
+.products a{
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    opacity:1;
+}
+.products a:hover , .dropdown:hover .dropbtn{
+    color: #9eb17b;
+    transition: .2s ease-out;
+}
+.products a.hot-sale{
+    background-color: #C19434;
+    background-image: url('images/fondoproductos.jpeg');
+    background-repeat: repeat;
+    background-position: 0 0;
+    color: white;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F1F1EF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #fff;
+  background-color: #374818;
+  background-image: url('images/fondoproductos.jpeg');
+  background-repeat: repeat;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #9eb17b;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Sticky Section CSS */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Images CSS */
+#images img{
+    border: 0.5px solid black;
+    border-radius: 40%;
+    margin: 3%;
+}
+
+
+/* Brands Section CSS */
+
+.brandsCustom{
+    margin: 0;
+}
+.brandsCustom ul{
+    list-style: none;
+}
+.brandsCustom ul li{
+    width: 238px;
+    height: 167px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    line-height: 180px;
+    text-align: center;
+}
+.brandsCustom ul li img{
+    vertical-align: middle;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    opacity: 0.6;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+.brandsCustom ul li img:hover{
+    vertical-align: middle;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+}
+
+/* Footer Section CSS */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #374818;
+  background-image: url('images/fondoproductos.jpeg');
+  color: #fff;
+  text-align: center;
+
+}
+
+@media (min-width: 1800px) {
+     #images img{
+        height: 400px ;
+        width: 400px ;
+    }
+}
+@media  (max-width: 1800px) {
+    #images img{
+        height: 250px ;
+        width: 250px ;
+    }
+}
+}

@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title>Angeles Artística Integral</title>
+    <meta property="og:title" content="Angeles Artística Integral">
+    <meta property="og:site_name" content="Angeles Artística Integral"/>
+    <meta name="description" content="Angeles Artística Integral ">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+<body>
+
+  <!-- Banner section -->
+    <div id="banner">
+      <h1>Angeles Artística Integral</h1>
+    </div>
+
+    <!-- Products section -->
+    <div class="products" id="products">
+      <a href="#">Oleos</a>
+      <a href="#">Acrílicos</a>
+      <a href="#">Bastidores</a>
+      <a href="#">Servilletas y Pañuelos</a>
+      <a href="#">Pinceles</a>
+      <div class="dropdown">
+          <button class="dropbtn">Otros
+            <i class="fa fa-caret-down"></i>
+          </button>
+              <div class="dropdown-content">
+                <a href="#">Aerografía</a>
+                <a href="#">Fibro-Fácil</a>
+                <a href="#">Vitrofusión</a>
+              </div>
+        </div>
+      <a href="#" class="hot-sale">HOT SALE</a>
+    </div>
+
+
+  <!-- Images section -->
+    <div id="images">
+      <h2>Productos:</h3>
+
+      <div class="Oleos">
+        <h3>Oleos</h3>
+        <img src="images/OleoAlbaAzul.jpg" alt="Oleo Alba Azul">
+        <img src="images/OleoAlbaBlanco.jpg" alt="Oleo Alba Blanco">
+        <img src="images/OleoAlbaTierra.jpg" alt="Oleo Alba Tierra">
+        <img src="images/OleoAlbaVerde.jpg" alt="Oleo Alba Verde">
+      </div>
+
+      <div class="Acrílicos">
+        <h3>Acrílicos</h3>
+        <img src="images/AcrilicoEurekaVerde.jpg" alt="Acrilico Eureka Verde">
+        <img src="images/AcrilicoEurekaPiedra.jpeg" alt="Acrilico Eureka Piedra">
+        <img src="images/AcrilicoEurekaAzul.jpeg" alt="Acrilico Eureka Azul">
+        <img src="images/AcrilicoEurekaRosado.jpg" alt="Acrilico Eureka Rosado">
+      </div>
+
+      <div class="Bastidores">
+        <h3>Bastidores</h3>
+        <img src="images/Bastidor1.jpg" alt="Bastidor Seurat">
+        <img src="images/Bastidor2.jpg" alt="Bastidor Gines">
+        <img src="images/Bastidor3.jpg" alt="Bastidor Turk">
+        <img src="images/Bastidor4.jpg" alt="Bastidor Fime">
+      </div>
+
+      <div class="Servilletas y Pañuelos">
+        <h3>Servilletas y Pañuelos</h3>
+        <img src="images/ServilletaRamaYFlor.jpg" alt="Servilleta Rama Y Flor">
+        <img src="images/ServilletaFormasRojas.jpg" alt="Servilleta Formas Rojas">
+        <img src="images/ServilletaFlores.jpg" alt="Servilleta Flores">
+        <img src="images/ServilletaBlancaYAzul.jpg" alt="Servilleta Blanca Y Azul">
+      </div>
+
+      <div class="Pinceles">
+        <h3>Pinceles</h3>
+        <img src="images/Pincel1.jpg" alt="Pincel Heburn">
+        <img src="images/Pincel2.jpg" alt="Pincel Galga">
+        <img src="images/Pincel3.png" alt="Pincel Milan">
+        <img src="images/Pincel4.jpg" alt="Pincel Garbono">
+      </div>
+    </div>
+
+
+  <!-- Brands section -->
+   <div class="brandsCustom">
+    <h2>Marcas</h3>
+      <ul>
+          <li><img alt="FaberCastell" src="images/FabeCastell.png"></li>
+          <li><img alt="WinsorNewton" src="images/Winsor_Newton.png"></li>
+          <li><img alt="CretaColor" src="images/Cretacolor.png"></li>
+          <li><img alt="Eureka" src="images/Eureka.png"></li>
+          <li><img alt="Canson" src="images/Canson.png"></li>
+          <li><img alt="Casan" src="images/casan.png"></li>
+          <li><img alt="Seurat" src="images/Seurat.png"></li>
+          <li><img alt="Liquitex" src="images/Liquitex.png"></li>
+          <li><img alt="KohiNoor" src="images/Koh-i-Noor.png"></li>
+          <li><img alt="Eterna" src="images/Eterna.png"></li>
+          <li><img alt="Alba" src="images/Alba.png"></li>
+          <li><img alt="CarandAche" src="images/Caran_d_Ache.png"></li>
+          <li><img alt="Derwent" src="images/Derwent.png"></li>
+          <li><img alt="Fabriano" src="images/Fabriano.png"></li>
+          <li><img alt="Sharpie3" src="images/sharpie3.png"></li>
+      </ul>
+  </div>
+
+
+  <!-- Footer section -->
+    <div class="footer">
+      <p>PRUEBA</p>
+    </div>
+
+<!-- Script section -->
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var products = document.getElementById("products");
+    var sticky = products.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        products.classList.add("sticky")
+      } else {
+        products.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>
